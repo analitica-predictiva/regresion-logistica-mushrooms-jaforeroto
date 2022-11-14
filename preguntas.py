@@ -104,7 +104,7 @@ def pregunta_02():
     )
 
     # Retorne `X_train`, `X_test`, `y_train` y `y_test`
-    return X_train, X_test, y_train, 
+    return X_train, X_test, y_train, y_test
 
 
 def pregunta_03():
@@ -112,14 +112,12 @@ def pregunta_03():
     Especificación y entrenamiento del modelo. En sklearn, el modelo de regresión
     logística (a diferencia del modelo implementado normalmente en estadística) tiene
     un hiperparámetro de regularición llamado `Cs`. Consulte la documentación.
-
     Para encontrar el valor óptimo de Cs se puede usar LogisticRegressionCV.
-
     Ya que las variables explicativas son literales, resulta más conveniente usar un
     pipeline.
     """
 
-       # Importe LogisticRegressionCV
+    # Importe LogisticRegressionCV
     # Importe OneHotEncoder
     # Importe Pipeline
     from sklearn.linear_model import LogisticRegressionCV
@@ -150,7 +148,7 @@ def pregunta_04():
     Evalue el modelo obtenido.
     """
 
-     # Importe confusion_matrix
+    # Importe confusion_matrix
     from sklearn.metrics import confusion_matrix
 
     # Obtenga el pipeline de la pregunta 3.
