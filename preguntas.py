@@ -1,23 +1,17 @@
 """
 Detección de hongos venenosos usando Regresión Logistica
 -----------------------------------------------------------------------------------------
-
 Construya un modelo de regresión logística que permita identificar si un hongo es 
 venenoso o no. Para ello, utilice la muestra de datos suministrada. 
-
 La base de datos contiene 8124 instancias de hongos provenientes de 23 especies de la 
 familia Agaricus y Lepiota, los cuales han sido clasificados como comestibles, venenosos
 o de comestibilidad indeterminada. Por el tipo de problema en cuestión, los hongos de 
 comestibilidad desconocida deben ser asignados a la clase de hongos venenosos, ya que no
 se puede correr el riesgo de dar un hongo potencialmente venenoso a una persona para su 
 consumo.
-
 Véase https://www.kaggle.com/uciml/mushroom-classification
-
 Evalue el modelo usando la matriz de confusión.
-
 La información contenida en la muestra es la siguiente:
-
      1. cap-shape:                bell=b,conical=c,convex=x,flat=f,
                                   knobbed=k,sunken=s
      2. cap-surface:              fibrous=f,grooves=g,scaly=y,smooth=s
@@ -52,8 +46,6 @@ La información contenida en la muestra es la siguiente:
                                   scattered=s,several=v,solitary=y
     22. habitat:                  grasses=g,leaves=l,meadows=m,paths=p,
                                   urban=u,waste=w,woods=d
-
-
 """
 
 import pandas as pd
